@@ -31,23 +31,26 @@ A modern, responsive e-commerce platform built with React and Redux, featuring a
 ### Installation
 
 1. Clone the repository:
+
 ```bash
-git clone https://github.com/yourusername/elegant-client.git
-cd elegant-client
+git clone the repo
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Set up environment variables:
-Create a `.env` file in the root directory with:
+   Create a `.env` file in the root directory with:
+
 ```env
 REACT_APP_API=your_api_url
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -56,7 +59,7 @@ npm run dev
 
 - **Framework:** React
 - **State Management:** Redux with Redux Toolkit
-- **Styling:** 
+- **Styling:**
   - Tailwind CSS
   - Material-UI Components
   - GSAP (Animations)
@@ -88,18 +91,21 @@ src/
 ## 🎯 Key Components
 
 ### Product Management
+
 - Dynamic product cards with wishlist/cart integration
 - Advanced filtering and sorting
 - Real-time stock updates
 - Image galleries
 
 ### Shopping Cart
+
 - Real-time cart updates
 - Persistent cart data
 - Guest cart functionality
 - Quantity management
 
 ### User Interface
+
 - Responsive navigation
 - Animated sidebars
 - Loading states
@@ -131,6 +137,7 @@ src/
 ## 🧪 Testing
 
 Run tests using:
+
 ```bash
 npm test
 ```
@@ -138,11 +145,13 @@ npm test
 ## 🚀 Deployment
 
 1. Build the project:
+
 ```bash
 npm run build
 ```
 
 2. Preview the build:
+
 ```bash
 npm run preview
 ```
@@ -150,9 +159,9 @@ npm run preview
 ## 🔗 Backend API
 
 This project uses a dedicated backend API which can be found at:
-[Elegant E-Commerce API](https://github.com/khalilbadreddine/Ecommerce-Api--Elegant)
-
+(https://github.com/safaehamri/Api-ecommProject)
 The API provides all the necessary endpoints for:
+
 - User authentication
 - Product management
 - Cart operations
@@ -170,15 +179,6 @@ Make sure to check the API documentation for detailed information about availabl
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👥 Authors
-
-- **khalil badr eddine** - *Initial work* 
-
-
 ## 🙏 Acknowledgments
 
 - React Documentation
@@ -186,6 +186,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tailwind CSS
 - Material-UI Team
 - GSAP Animation Library
-
-
-
